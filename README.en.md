@@ -29,7 +29,7 @@ _Download prohibited videos, perform data analysis, download without watermark o
 -   This project uses`X-Bogus`Algorithms and`A_Bogus`The algorithm requests the Web API of Douyin and TikTok.
 -   Due to Douyin's risk control, after deploying this project, please**Obtain the cookie of Douyin website in the browser and replace it in config.yaml.**
 -   Please read the document below before raising an issue. Solutions to most problems will be included in the document.
--   This project is completely free, but please observe the following when using it:[Apache-2.0 license](https://github.com/Evil0ctal/Douyin_TikTok_Download_API?tab=Apache-2.0-1-ov-file#readme)
+-   This project is completely free, but when using it, please comply with:[Apache-2.0 license](https://github.com/Evil0ctal/Douyin_TikTok_Download_API?tab=Apache-2.0-1-ov-file#readme)
 
 ## 🔖TikHub.io API
 
@@ -62,7 +62,7 @@ Part of TikHub's source code will be open sourced on Github, and it will sponsor
 
 ## 🖥Demo site: I am very vulnerable...please do not stress test (·•᷄ࡇ•᷅ )
 
-> 😾The online download function of the demo site has been turned off, and due to cookie reasons, Douyin's parsing and API services cannot guarantee availability on the Demo site.
+> 😾The online download function of the demo site has been turned off, and due to cookie reasons, the availability of Douyin's parsing and API services cannot be guaranteed on the Demo site.
 
 🍔Web APP:<https://douyin.wtf/>
 
@@ -190,7 +190,7 @@ Part of TikHub's source code will be open sourced on Github, and it will sponsor
 
 ## 📦Call the parsing library (obsolete and needs to be updated):
 
-> 💡PyPi:<https://pypi.org/project/douyin-tiktok-scraper/>
+> 💡PyPi：<https://pypi.org/project/douyin-tiktok-scraper/>
 
 Install the parsing library:`pip install douyin-tiktok-scraper`
 
@@ -211,7 +211,7 @@ asyncio.run(hybrid_parsing(url=input("Paste Douyin/TikTok/Bilibili share URL her
 
 ## 🗺️Supported submission formats:
 
-> 💡Tip: Including but not limited to the following examples, if you encounter link parsing failure, please open a new one[issue](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/issues)
+> 💡Tip: Including but not limited to the following examples. If you encounter link parsing failure, please open a new one.[issue](https://github.com/Evil0ctal/Douyin_TikTok_Download_API/issues)
 
 -   Douyin sharing password (copy in APP)
 
@@ -273,11 +273,11 @@ Online:<https://api.douyin.wtf/docs>
 -   Crawl video data (TikTok or Douyin hybrid analysis)`https://api.douyin.wtf/api/hybrid/video_data?url=[视频链接/Video URL]&minimal=false`
 -   Download videos/photo albums (TikTok or Douyin hybrid analysis)`https://api.douyin.wtf/api/download?url=[视频链接/Video URL]&prefix=true&with_watermark=false`
 
-**_For more demonstrations, please view the document content..._**
+**_For more demonstrations, please see the documentation..._**
 
 ## ⚠️Preparation work before deployment (please read carefully):
 
--   You need to solve the problem of crawler cookie risk control by yourself, otherwise the interface may become unusable. After modifying the configuration file, you need to restart the service for it to take effect. It is best to use the cookie of the account you have already logged in to.
+-   You need to solve the problem of crawler cookie risk control by yourself, otherwise the interface may become unusable. After modifying the configuration file, you need to restart the service for it to take effect, and it is best to use cookies from accounts that you have already logged in to.
     -   Douyin web cookie (obtain and replace the cookie in the configuration file below):
     -   <https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/30e56e5a7f97f87d60b1045befb1f6db147f8590/crawlers/douyin/web/config.yaml#L7>
     -   TikTok web-side cookies (obtain and replace the cookies in the configuration file below):
@@ -397,7 +397,7 @@ Most of the configuration of the project can be found in the following directori
 
 ### Step 5: Stop and remove the container
 
-When you need to stop and remove a container, use the following commands:
+When you need to stop and remove containers, use the following commands:
 
 ```bash
 # Stop
